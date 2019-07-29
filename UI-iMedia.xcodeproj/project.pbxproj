@@ -22,6 +22,8 @@
 		00703AB722EEF3C3009A6179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00703ABA22EEF3C3009A6179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00703ABC22EEF3C3009A6179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00703AC322EEF446009A6179 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		00703AC422EEF49B009A6179 /* ar */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ar; path = ar.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,30 @@
 		00703AAF22EEF3BE009A6179 /* UI-iMedia */ = {
 			isa = PBXGroup;
 			children = (
+				00703AC522EEF4A8009A6179 /* UI */,
 				00703AB022EEF3BF009A6179 /* AppDelegate.swift */,
 				00703AB222EEF3BF009A6179 /* ViewController.swift */,
-				00703AB422EEF3BF009A6179 /* Main.storyboard */,
 				00703AB722EEF3C3009A6179 /* Assets.xcassets */,
 				00703AB922EEF3C3009A6179 /* LaunchScreen.storyboard */,
 				00703ABC22EEF3C3009A6179 /* Info.plist */,
 			);
 			path = "UI-iMedia";
+			sourceTree = "<group>";
+		};
+		00703AC522EEF4A8009A6179 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				00703AC622EEF4B3009A6179 /* LaunchScreen */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		00703AC622EEF4B3009A6179 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				00703AB422EEF3BF009A6179 /* Main.storyboard */,
+			);
+			path = LaunchScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +124,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 00703AA422EEF3BE009A6179;
 			productRefGroup = 00703AAE22EEF3BE009A6179 /* Products */;
@@ -147,6 +166,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				00703AB522EEF3BF009A6179 /* Base */,
+				00703AC422EEF49B009A6179 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -155,6 +175,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				00703ABA22EEF3C3009A6179 /* Base */,
+				00703AC322EEF446009A6179 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,6 +187,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -227,6 +249,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
