@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00237BCB22F00B5B0068FE97 /* signIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00237BCD22F00B5B0068FE97 /* signIn.storyboard */; };
+		00237BE022F0288E0068FE97 /* signUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00237BE222F0288E0068FE97 /* signUp.storyboard */; };
 		00703AB122EEF3BF009A6179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00703AB022EEF3BF009A6179 /* AppDelegate.swift */; };
 		00703AB322EEF3BF009A6179 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00703AB222EEF3BF009A6179 /* ViewController.swift */; };
 		00703AB622EEF3BF009A6179 /* launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00703AB422EEF3BF009A6179 /* launch.storyboard */; };
@@ -26,6 +27,15 @@
 		00237BD922F00B6E0068FE97 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/signIn.strings; sourceTree = "<group>"; };
 		00237BDB22F00B700068FE97 /* fa-IR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fa-IR"; path = "fa-IR.lproj/signIn.strings"; sourceTree = "<group>"; };
 		00237BDD22F00B730068FE97 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/signIn.strings; sourceTree = "<group>"; };
+		00237BE122F0288E0068FE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/signUp.storyboard; sourceTree = "<group>"; };
+		00237BE422F028960068FE97 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/signUp.strings; sourceTree = "<group>"; };
+		00237BE622F0289C0068FE97 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/signUp.strings; sourceTree = "<group>"; };
+		00237BE822F0289E0068FE97 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/signUp.strings; sourceTree = "<group>"; };
+		00237BEA22F0289F0068FE97 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/signUp.strings; sourceTree = "<group>"; };
+		00237BEC22F028A00068FE97 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/signUp.strings"; sourceTree = "<group>"; };
+		00237BEE22F028A10068FE97 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/signUp.strings; sourceTree = "<group>"; };
+		00237BF022F028A20068FE97 /* fa-IR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fa-IR"; path = "fa-IR.lproj/signUp.strings"; sourceTree = "<group>"; };
+		00237BF222F028A40068FE97 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/signUp.strings; sourceTree = "<group>"; };
 		00703AAD22EEF3BE009A6179 /* UI-iMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI-iMedia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00703AB022EEF3BF009A6179 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00703AB222EEF3BF009A6179 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +109,7 @@
 			children = (
 				00703AB422EEF3BF009A6179 /* launch.storyboard */,
 				00237BCD22F00B5B0068FE97 /* signIn.storyboard */,
+				00237BE222F0288E0068FE97 /* signUp.storyboard */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -169,6 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00237BE022F0288E0068FE97 /* signUp.storyboard in Resources */,
 				00703ABB22EEF3C3009A6179 /* LaunchScreen.storyboard in Resources */,
 				00237BCB22F00B5B0068FE97 /* signIn.storyboard in Resources */,
 				00703AF222EF0AB3009A6179 /* localizable.strings in Resources */,
@@ -206,6 +218,22 @@
 				00237BDD22F00B730068FE97 /* tr */,
 			);
 			name = signIn.storyboard;
+			sourceTree = "<group>";
+		};
+		00237BE222F0288E0068FE97 /* signUp.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00237BE122F0288E0068FE97 /* Base */,
+				00237BE422F028960068FE97 /* es */,
+				00237BE622F0289C0068FE97 /* ru */,
+				00237BE822F0289E0068FE97 /* de */,
+				00237BEA22F0289F0068FE97 /* ar */,
+				00237BEC22F028A00068FE97 /* zh-Hans */,
+				00237BEE22F028A10068FE97 /* hi */,
+				00237BF022F028A20068FE97 /* fa-IR */,
+				00237BF222F028A40068FE97 /* tr */,
+			);
+			name = signUp.storyboard;
 			sourceTree = "<group>";
 		};
 		00703AB422EEF3BF009A6179 /* launch.storyboard */ = {

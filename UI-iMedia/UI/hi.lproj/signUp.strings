@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "6sn-VQ-Cr4"; */
+"6sn-VQ-Cr4.normalTitle" = "दाखिल करना";
+
+/* Class = "UITextField"; placeholder = "Email Address"; ObjectID = "CbC-ba-MhY"; */
+"CbC-ba-MhY.placeholder" = "ईमेल पता";
+
+/* Class = "UILabel"; text = "Create a new account"; ObjectID = "DwI-z7-RFY"; */
+"DwI-z7-RFY.text" = "एक नया खाता बनाएं";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "Pge-sa-FmF"; */
+"Pge-sa-FmF.placeholder" = "पारण शब्द";
+
+/* Class = "UITextField"; placeholder = "Full Name"; ObjectID = "Tdy-e6-4dD"; */
+"Tdy-e6-4dD.placeholder" = "पूरा नाम";
+
+/* Class = "UITextField"; placeholder = "Confirm Password"; ObjectID = "Z2k-O1-AK4"; */
+"Z2k-O1-AK4.placeholder" = "पासवर्ड की पुष्टि कीजिये";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "e2s-uS-PYQ"; */
+"e2s-uS-PYQ.normalTitle" = "साइन अप करें";
+
+/* Class = "UILabel"; text = "Already have an account?"; ObjectID = "ws3-bx-MGP"; */
+"ws3-bx-MGP.text" = "पहले से ही एक खाता है?";
