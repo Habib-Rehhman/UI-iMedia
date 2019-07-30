@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -25,14 +26,14 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="zxh-jM-9iP"/>
                                         <exclude reference="eOT-xO-Ri5"/>
+                                        <exclude reference="zxh-jM-9iP"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=compact-widthClass=compact">
                                     <mask key="constraints">
-                                        <exclude reference="zxh-jM-9iP"/>
                                         <exclude reference="eOT-xO-Ri5"/>
+                                        <exclude reference="zxh-jM-9iP"/>
                                     </mask>
                                 </variation>
                             </imageView>

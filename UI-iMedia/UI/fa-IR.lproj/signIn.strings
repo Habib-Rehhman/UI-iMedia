@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "BkD-x0-zC4"; */
+"BkD-x0-zC4.normalTitle" = "ورود";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "Pt5-o2-2Rl"; */
+"Pt5-o2-2Rl.placeholder" = "کلمه عبور";
+
+/* Class = "UILabel"; text = "Login to your account"; ObjectID = "UEi-RP-p1d"; */
+"UEi-RP-p1d.text" = "وارد حساب کاربری خود شوید";
+
+/* Class = "UITextField"; placeholder = "Email Address"; ObjectID = "aun-OU-6G3"; */
+"aun-OU-6G3.placeholder" = "آدرس ایمیل";
+
+/* Class = "UIButton"; normalTitle = "Forgot password"; ObjectID = "dOG-xa-cgr"; */
+"dOG-xa-cgr.normalTitle" = "رمز عبور را فراموش کرده اید";
+
+/* Class = "UIButton"; normalTitle = "Create a new account"; ObjectID = "llY-fb-8dR"; */
+"llY-fb-8dR.normalTitle" = "ایجاد یک حساب کاربری جدید";
