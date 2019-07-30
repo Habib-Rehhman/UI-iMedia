@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_0" orientation="landscape">
+    <device id="retina6_1" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,11 +15,11 @@
             <objects>
                 <viewController storyboardIdentifier="signUPVC" id="snL-s0-fgr" customClass="SignUpViewController" customModule="UI_iMedia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="i97-bC-6tY">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="top" verticalHuggingPriority="251" text="Create a new account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="DwI-z7-RFY">
-                                <rect key="frame" x="69.5" y="25" width="265.5" height="41"/>
+                                <rect key="frame" x="113" y="50.5" width="342.5" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="41" id="GdT-5n-a49"/>
                                 </constraints>
@@ -42,7 +42,7 @@
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2s-uS-PYQ">
-                                <rect key="frame" x="123.5" y="250" width="102" height="41"/>
+                                <rect key="frame" x="223" y="324.5" width="123" height="57"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="57" id="8dT-56-hsk"/>
@@ -93,10 +93,10 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J4a-Rn-JTQ" userLabel="bottomView">
-                                <rect key="frame" x="357" y="119" width="185" height="82"/>
+                                <rect key="frame" x="573" y="174.5" width="188" height="65"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Already have an account?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="ws3-bx-MGP">
-                                        <rect key="frame" x="0.0" y="2" width="187.5" height="44"/>
+                                        <rect key="frame" x="0.0" y="2" width="200" height="19.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="210" id="OWN-Iu-ZoI">
                                                 <variation key="heightClass=compact-widthClass=regular" constant="200"/>
@@ -111,6 +111,7 @@
                                             </mask>
                                         </variation>
                                         <variation key="heightClass=compact-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <mask key="constraints">
                                                 <include reference="OWN-Iu-ZoI"/>
                                             </mask>
@@ -123,7 +124,7 @@
                                         </variation>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6sn-VQ-Cr4">
-                                        <rect key="frame" x="53.5" y="37" width="78" height="41"/>
+                                        <rect key="frame" x="56" y="28" width="76" height="33"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="41" id="9ot-2w-21j"/>
                                             <constraint firstAttribute="height" constant="34" id="K4p-KI-t25"/>
@@ -156,7 +157,7 @@
                                             </mask>
                                         </variation>
                                         <variation key="heightClass=compact-widthClass=regular">
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <mask key="constraints">
                                                 <include reference="T5t-k1-zEm"/>
                                                 <include reference="uat-iY-GvP"/>
@@ -182,6 +183,7 @@
                                     <constraint firstAttribute="width" constant="188" id="0Hj-Ib-hfi"/>
                                     <constraint firstItem="ws3-bx-MGP" firstAttribute="leading" secondItem="J4a-Rn-JTQ" secondAttribute="leading" id="1eD-ic-LW2"/>
                                     <constraint firstAttribute="height" constant="49" id="2pW-1u-6Xh"/>
+                                    <constraint firstAttribute="bottom" secondItem="6sn-VQ-Cr4" secondAttribute="bottom" constant="4" id="4ud-eI-hd4"/>
                                     <constraint firstAttribute="height" constant="49" id="7KO-J9-tjg"/>
                                     <constraint firstAttribute="bottom" secondItem="ws3-bx-MGP" secondAttribute="bottom" constant="36" id="EwG-PH-umf"/>
                                     <constraint firstItem="ws3-bx-MGP" firstAttribute="top" secondItem="J4a-Rn-JTQ" secondAttribute="top" constant="2" id="FBa-Tz-dih"/>
@@ -200,15 +202,18 @@
                                     <constraint firstAttribute="width" constant="266" id="Xc8-nn-Q6R"/>
                                     <constraint firstAttribute="width" constant="253" id="XiO-1X-njY"/>
                                     <constraint firstAttribute="width" constant="188" id="Z5F-u4-CZh"/>
+                                    <constraint firstAttribute="height" constant="65" id="gMa-tL-pH8"/>
                                     <constraint firstItem="ws3-bx-MGP" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="J4a-Rn-JTQ" secondAttribute="leading" constant="20" symbolic="YES" id="h7z-nA-zMh">
                                         <variation key="heightClass=compact-widthClass=regular" constant="-9.5"/>
                                     </constraint>
                                     <constraint firstAttribute="height" constant="49" id="hdS-FA-3h1"/>
                                     <constraint firstAttribute="height" constant="52" id="jET-mR-skf"/>
                                     <constraint firstItem="6sn-VQ-Cr4" firstAttribute="centerX" secondItem="J4a-Rn-JTQ" secondAttribute="centerX" id="jKT-OY-5vQ"/>
+                                    <constraint firstItem="6sn-VQ-Cr4" firstAttribute="centerX" secondItem="J4a-Rn-JTQ" secondAttribute="centerX" id="kFU-P4-9tC"/>
                                     <constraint firstAttribute="bottom" secondItem="6sn-VQ-Cr4" secondAttribute="bottom" constant="4" id="kl3-qj-bYV"/>
                                     <constraint firstAttribute="trailing" secondItem="ws3-bx-MGP" secondAttribute="trailing" constant="-2.5" id="kqg-gN-IYD"/>
                                     <constraint firstItem="ws3-bx-MGP" firstAttribute="top" secondItem="J4a-Rn-JTQ" secondAttribute="top" constant="2" id="lhs-Yb-7uw"/>
+                                    <constraint firstItem="6sn-VQ-Cr4" firstAttribute="top" secondItem="ws3-bx-MGP" secondAttribute="bottom" constant="6.5" id="nxs-EG-2oK"/>
                                     <constraint firstItem="6sn-VQ-Cr4" firstAttribute="centerX" secondItem="J4a-Rn-JTQ" secondAttribute="centerX" id="qhF-pZ-nCw"/>
                                     <constraint firstItem="ws3-bx-MGP" firstAttribute="leading" secondItem="J4a-Rn-JTQ" secondAttribute="leading" id="rKa-u4-bKP"/>
                                     <constraint firstAttribute="height" constant="82" id="sby-A9-MeA"/>
@@ -229,6 +234,7 @@
                                         <exclude reference="Xc8-nn-Q6R"/>
                                         <exclude reference="XiO-1X-njY"/>
                                         <exclude reference="Z5F-u4-CZh"/>
+                                        <exclude reference="gMa-tL-pH8"/>
                                         <exclude reference="hdS-FA-3h1"/>
                                         <exclude reference="jET-mR-skf"/>
                                         <exclude reference="sby-A9-MeA"/>
@@ -250,9 +256,12 @@
                                         <exclude reference="tRx-CB-Hsq"/>
                                         <exclude reference="tcd-Tl-AAJ"/>
                                         <exclude reference="umd-Hs-D8V"/>
+                                        <exclude reference="4ud-eI-hd4"/>
                                         <exclude reference="KhS-VH-GDI"/>
                                         <exclude reference="jKT-OY-5vQ"/>
+                                        <exclude reference="kFU-P4-9tC"/>
                                         <exclude reference="kl3-qj-bYV"/>
+                                        <exclude reference="nxs-EG-2oK"/>
                                         <exclude reference="qhF-pZ-nCw"/>
                                     </mask>
                                 </variation>
@@ -271,10 +280,14 @@
                                 <variation key="heightClass=compact-widthClass=regular">
                                     <mask key="constraints">
                                         <include reference="Z5F-u4-CZh"/>
+                                        <include reference="gMa-tL-pH8"/>
                                         <exclude reference="1eD-ic-LW2"/>
                                         <include reference="FBa-Tz-dih"/>
                                         <include reference="Teh-9Z-z4H"/>
                                         <include reference="h7z-nA-zMh"/>
+                                        <exclude reference="4ud-eI-hd4"/>
+                                        <include reference="kFU-P4-9tC"/>
+                                        <include reference="nxs-EG-2oK"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
@@ -310,10 +323,10 @@
                                 </variation>
                             </view>
                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Ue0-SS-vjJ">
-                                <rect key="frame" x="69.5" y="81" width="267" height="150"/>
+                                <rect key="frame" x="104" y="123.5" width="326" height="180"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Full Name" textAlignment="natural" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="Tdy-e6-4dD">
-                                        <rect key="frame" x="0.0" y="0.0" width="267" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="326" height="30"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
@@ -330,7 +343,7 @@
                                         </variation>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Address" textAlignment="natural" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="CbC-ba-MhY">
-                                        <rect key="frame" x="0.0" y="40" width="267" height="30"/>
+                                        <rect key="frame" x="0.0" y="50" width="326" height="30"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" textContentType="email"/>
@@ -347,7 +360,7 @@
                                         </variation>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="Pge-sa-FmF">
-                                        <rect key="frame" x="0.0" y="80" width="267" height="30"/>
+                                        <rect key="frame" x="0.0" y="100" width="326" height="30"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
@@ -364,7 +377,7 @@
                                         </variation>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="Z2k-O1-AK4">
-                                        <rect key="frame" x="0.0" y="120" width="267" height="30"/>
+                                        <rect key="frame" x="0.0" y="150" width="326" height="30"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
@@ -422,7 +435,7 @@
                                 <variation key="heightClass=compact-widthClass=compact" constant="120"/>
                             </constraint>
                             <constraint firstItem="J4a-Rn-JTQ" firstAttribute="top" secondItem="e2s-uS-PYQ" secondAttribute="bottom" constant="68" id="7Fd-TC-aYq"/>
-                            <constraint firstItem="4ya-4Z-deW" firstAttribute="bottom" secondItem="J4a-Rn-JTQ" secondAttribute="bottom" constant="158" id="7M8-pD-d08"/>
+                            <constraint firstItem="4ya-4Z-deW" firstAttribute="bottom" secondItem="J4a-Rn-JTQ" secondAttribute="bottom" constant="179" id="7M8-pD-d08"/>
                             <constraint firstItem="J4a-Rn-JTQ" firstAttribute="leading" secondItem="4ya-4Z-deW" secondAttribute="centerX" constant="331" id="7pj-N1-MWF"/>
                             <constraint firstItem="e2s-uS-PYQ" firstAttribute="top" secondItem="Ue0-SS-vjJ" secondAttribute="bottom" constant="42.5" id="8zg-ve-gh7"/>
                             <constraint firstItem="4ya-4Z-deW" firstAttribute="trailing" secondItem="Ue0-SS-vjJ" secondAttribute="trailing" multiplier="1.1" constant="198" id="9oO-jy-bOu"/>
@@ -464,6 +477,7 @@
                             <constraint firstItem="4ya-4Z-deW" firstAttribute="trailing" secondItem="Ue0-SS-vjJ" secondAttribute="trailing" multiplier="1.2" constant="40" id="T60-o6-0AD">
                                 <variation key="heightClass=regular-widthClass=compact" constant="20"/>
                             </constraint>
+                            <constraint firstItem="J4a-Rn-JTQ" firstAttribute="centerY" secondItem="i97-bC-6tY" secondAttribute="centerY" id="UDj-SI-7Hk"/>
                             <constraint firstAttribute="bottom" secondItem="J4a-Rn-JTQ" secondAttribute="bottom" multiplier="1.05" constant="16" id="Ukc-0U-9P3"/>
                             <constraint firstAttribute="centerX" secondItem="e2s-uS-PYQ" secondAttribute="centerX" multiplier="1.17" id="W0q-sJ-kC4">
                                 <variation key="heightClass=compact-widthClass=compact" constant="80"/>
@@ -612,6 +626,7 @@
                                 <exclude reference="Mb5-JE-9ZB"/>
                                 <exclude reference="RyD-rs-m93"/>
                                 <exclude reference="SqK-Gt-EKn"/>
+                                <exclude reference="UDj-SI-7Hk"/>
                                 <exclude reference="Ukc-0U-9P3"/>
                                 <exclude reference="YCb-1M-0Ab"/>
                                 <exclude reference="YrJ-cr-QlD"/>
@@ -645,7 +660,7 @@
                         </variation>
                         <variation key="heightClass=compact-widthClass=regular">
                             <mask key="constraints">
-                                <include reference="7M8-pD-d08"/>
+                                <exclude reference="7M8-pD-d08"/>
                                 <include reference="g7S-Qa-X4f"/>
                                 <include reference="vTk-T8-2j1"/>
                                 <include reference="bW8-s6-VF0"/>
@@ -658,8 +673,9 @@
                                 <include reference="rlT-qd-XwG"/>
                                 <include reference="0so-kg-Kjh"/>
                                 <exclude reference="HDu-f0-4Ya"/>
-                                <include reference="LqQ-rM-udb"/>
+                                <exclude reference="LqQ-rM-udb"/>
                                 <exclude reference="SqK-Gt-EKn"/>
+                                <include reference="UDj-SI-7Hk"/>
                                 <exclude reference="YCb-1M-0Ab"/>
                             </mask>
                         </variation>
