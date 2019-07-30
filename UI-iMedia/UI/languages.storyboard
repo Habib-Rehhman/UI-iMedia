@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina3_5" orientation="portrait">
+    <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,20 +15,20 @@
             <objects>
                 <viewController storyboardIdentifier="mainBoard" id="5Of-sd-NDF" customClass="LanguageViewController" customModule="iMediaProto" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L32-kn-WEH">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aM8-SB-4Mm">
-                                <rect key="frame" x="-45" y="0.0" width="415" height="292.5"/>
+                                <rect key="frame" x="-45" y="0.0" width="509" height="598.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="wue-fM-VbU">
-                                        <rect key="frame" x="53" y="58" width="304" height="250"/>
+                                        <rect key="frame" x="63" y="119.5" width="381" height="200"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="t8c-1Y-ahg" userLabel="HorizontalStack">
-                                                <rect key="frame" x="0.0" y="0.0" width="304" height="76.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="381" height="60"/>
                                                 <subviews>
                                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zHU-25-UcZ">
-                                                        <rect key="frame" x="0.0" y="0.0" width="88" height="76.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="113.5" height="60"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                         <state key="normal" title="عربى">
@@ -44,7 +44,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gu1-WG-hdy">
-                                                        <rect key="frame" x="108" y="0.0" width="88" height="76.5"/>
+                                                        <rect key="frame" x="133.5" y="0.0" width="114" height="60"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                         <state key="normal" title="English">
@@ -60,7 +60,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3JB-wP-f0g">
-                                                        <rect key="frame" x="216" y="0.0" width="88" height="76.5"/>
+                                                        <rect key="frame" x="267.5" y="0.0" width="113.5" height="60"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                         <state key="normal" title="हिंदी">
@@ -73,10 +73,10 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="rUa-QH-dO3" userLabel="HorizontalStack">
-                                                <rect key="frame" x="0.0" y="86.5" width="304" height="77"/>
+                                                <rect key="frame" x="0.0" y="70" width="381" height="60"/>
                                                 <subviews>
-                                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bdh-Mn-kg5">
-                                                        <rect key="frame" x="0.0" y="0.0" width="88" height="77"/>
+                                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Bdh-Mn-kg5">
+                                                        <rect key="frame" x="0.0" y="0.0" width="113.5" height="60"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                         <state key="normal" title="española">
@@ -91,8 +91,8 @@
                                                             <action selector="langButtonPressed:" destination="5Of-sd-NDF" eventType="touchUpInside" id="KHl-la-Qbe"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ryi-p6-a1j">
-                                                        <rect key="frame" x="108" y="0.0" width="88" height="77"/>
+                                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ryi-p6-a1j">
+                                                        <rect key="frame" x="133.5" y="0.0" width="114" height="60"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                         <state key="normal" title="deutsche">
@@ -107,8 +107,8 @@
                                                             <action selector="langButtonPressed:" destination="5Of-sd-NDF" eventType="touchUpInside" id="dV8-fP-DQ1"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HE6-yj-2Mb">
-                                                        <rect key="frame" x="216" y="0.0" width="88" height="77"/>
+                                                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="HE6-yj-2Mb">
+                                                        <rect key="frame" x="267.5" y="0.0" width="113.5" height="60"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                         <state key="normal" title="русский">
@@ -126,10 +126,10 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="fxC-hh-gsH" userLabel="HorizontalStack">
-                                                <rect key="frame" x="0.0" y="173.5" width="304" height="76.5"/>
+                                                <rect key="frame" x="0.0" y="140" width="381" height="60"/>
                                                 <subviews>
                                                     <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FbR-sG-r89">
-                                                        <rect key="frame" x="0.0" y="0.0" width="88" height="76.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="113.5" height="60"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                         <state key="normal" title="中文">
@@ -145,7 +145,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ejk-Sa-XJw">
-                                                        <rect key="frame" x="108" y="0.0" width="88" height="76.5"/>
+                                                        <rect key="frame" x="133.5" y="0.0" width="114" height="60"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                         <state key="normal" title="فارسی">
@@ -161,7 +161,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hrf-fQ-Abn">
-                                                        <rect key="frame" x="216" y="0.0" width="88" height="76.5"/>
+                                                        <rect key="frame" x="267.5" y="0.0" width="113.5" height="60"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                         <state key="normal" title="türkçe">
@@ -180,16 +180,31 @@
                                             </stackView>
                                         </subviews>
                                         <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="Gps-6t-Eea"/>
                                             <constraint firstAttribute="height" constant="250" id="IRZ-0v-OHf">
                                                 <variation key="heightClass=compact-widthClass=compact" constant="130"/>
                                                 <variation key="heightClass=compact-widthClass=regular" constant="180"/>
                                             </constraint>
+                                            <constraint firstAttribute="height" constant="-217" id="PA9-LP-1X8"/>
                                         </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="Gps-6t-Eea"/>
+                                                <exclude reference="PA9-LP-1X8"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="Gps-6t-Eea"/>
+                                                <exclude reference="IRZ-0v-OHf"/>
+                                                <exclude reference="PA9-LP-1X8"/>
+                                            </mask>
+                                        </variation>
                                     </stackView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.64705882349999999" green="0.87058823529999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="wue-fM-VbU" firstAttribute="leading" secondItem="aM8-SB-4Mm" secondAttribute="leadingMargin" multiplier="0.1" constant="52" id="2P0-5K-5FS">
+                                    <constraint firstItem="wue-fM-VbU" firstAttribute="leading" secondItem="aM8-SB-4Mm" secondAttribute="leadingMargin" multiplier="0.1" constant="62" id="2P0-5K-5FS">
                                         <variation key="heightClass=compact-widthClass=compact" constant="120"/>
                                         <variation key="heightClass=compact-widthClass=regular" constant="120"/>
                                         <variation key="heightClass=regular-widthClass=regular" constant="150"/>
@@ -197,36 +212,55 @@
                                     <constraint firstAttribute="trailingMargin" secondItem="wue-fM-VbU" secondAttribute="trailing" constant="83" id="Zv6-hQ-e95">
                                         <variation key="heightClass=compact-widthClass=compact" constant="80"/>
                                         <variation key="heightClass=compact-widthClass=regular" constant="120"/>
-                                        <variation key="heightClass=regular-widthClass=compact" constant="50"/>
+                                        <variation key="heightClass=regular-widthClass=compact" constant="57"/>
                                         <variation key="heightClass=regular-widthClass=regular" constant="150"/>
                                     </constraint>
-                                    <constraint firstAttribute="centerY" secondItem="wue-fM-VbU" secondAttribute="top" multiplier="2" constant="30" id="nvZ-ug-NVv">
-                                        <variation key="heightClass=compact-widthClass=compact" constant="20"/>
+                                    <constraint firstAttribute="bottom" secondItem="wue-fM-VbU" secondAttribute="bottom" multiplier="1.05" constant="38" id="guf-cc-1tH"/>
+                                    <constraint firstAttribute="centerY" secondItem="wue-fM-VbU" secondAttribute="top" multiplier="2.5" constant="1" id="nvZ-ug-NVv">
+                                        <variation key="heightClass=compact-widthClass=compact" constant="22"/>
                                     </constraint>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="guf-cc-1tH"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="2P0-5K-5FS"/>
+                                        <exclude reference="guf-cc-1tH"/>
+                                        <include reference="nvZ-ug-NVv"/>
+                                    </mask>
+                                </variation>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="applogo" translatesAutoresizingMaskIntoConstraints="NO" id="j2k-lp-jDO">
-                                <rect key="frame" x="67.5" y="349" width="174" height="128"/>
+                                <rect key="frame" x="67.5" y="644.5" width="268" height="221.5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="R3w-03-fuu">
                                         <variation key="heightClass=compact-widthClass=compact" constant="99"/>
                                         <variation key="heightClass=compact-widthClass=regular" constant="101"/>
                                     </constraint>
                                 </constraints>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="R3w-03-fuu"/>
+                                    </mask>
+                                </variation>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="XME-kQ-xrE" firstAttribute="trailing" secondItem="j2k-lp-jDO" secondAttribute="trailing" constant="78.5" id="It7-2F-6oE"/>
                             <constraint firstItem="aM8-SB-4Mm" firstAttribute="trailing" secondItem="XME-kQ-xrE" secondAttribute="trailing" constant="50" id="Pgy-bC-cSD"/>
+                            <constraint firstAttribute="bottom" secondItem="j2k-lp-jDO" secondAttribute="bottom" constant="30" id="T4A-Gq-DGg"/>
                             <constraint firstItem="j2k-lp-jDO" firstAttribute="leading" secondItem="XME-kQ-xrE" secondAttribute="leading" constant="67.5" id="YYk-Hd-eHk"/>
-                            <constraint firstItem="j2k-lp-jDO" firstAttribute="top" secondItem="aM8-SB-4Mm" secondAttribute="bottom" multiplier="1.05" constant="42" id="epe-UQ-7MM">
+                            <constraint firstItem="j2k-lp-jDO" firstAttribute="top" secondItem="aM8-SB-4Mm" secondAttribute="bottom" multiplier="1.05" constant="16" id="epe-UQ-7MM">
                                 <variation key="heightClass=compact-widthClass=compact" constant="13"/>
                                 <variation key="heightClass=compact-widthClass=regular" constant="23"/>
                                 <variation key="heightClass=regular-widthClass=regular" constant="42"/>
                             </constraint>
                             <constraint firstItem="aM8-SB-4Mm" firstAttribute="leading" secondItem="XME-kQ-xrE" secondAttribute="leading" constant="-45" id="o4o-MY-b0t"/>
-                            <constraint firstItem="XME-kQ-xrE" firstAttribute="bottom" secondItem="aM8-SB-4Mm" secondAttribute="bottom" multiplier="1.3" constant="100" id="vX7-Yb-Mcn">
+                            <constraint firstItem="XME-kQ-xrE" firstAttribute="bottom" secondItem="aM8-SB-4Mm" secondAttribute="bottom" multiplier="1.3" constant="84" id="vX7-Yb-Mcn">
                                 <variation key="heightClass=compact-widthClass=compact" constant="75"/>
                             </constraint>
                             <constraint firstItem="aM8-SB-4Mm" firstAttribute="top" secondItem="L32-kn-WEH" secondAttribute="top" id="xaQ-Fd-Ui7"/>
@@ -235,6 +269,18 @@
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="image" keyPath="layer.contents" value="background"/>
                         </userDefinedRuntimeAttributes>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="T4A-Gq-DGg"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="vX7-Yb-Mcn"/>
+                                <include reference="T4A-Gq-DGg"/>
+                                <include reference="epe-UQ-7MM"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="3Fa-ge-CzT"/>
                 </viewController>
