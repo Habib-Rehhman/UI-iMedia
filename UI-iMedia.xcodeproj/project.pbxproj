@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		00237BCB22F00B5B0068FE97 /* signIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00237BCD22F00B5B0068FE97 /* signIn.storyboard */; };
 		00237BE022F0288E0068FE97 /* signUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00237BE222F0288E0068FE97 /* signUp.storyboard */; };
+		00268E0722FC32C0004AF4B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00268E0622FC32C0004AF4B5 /* Assets.xcassets */; };
+		00268E0822FC4051004AF4B5 /* credentialsEdit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00268E0A22FC4051004AF4B5 /* credentialsEdit.storyboard */; };
 		0035166622F09214004D29F4 /* languages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0035166522F09214004D29F4 /* languages.storyboard */; };
 		00703AB122EEF3BF009A6179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00703AB022EEF3BF009A6179 /* AppDelegate.swift */; };
 		00703AB322EEF3BF009A6179 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00703AB222EEF3BF009A6179 /* ViewController.swift */; };
 		00703AB622EEF3BF009A6179 /* launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00703AB422EEF3BF009A6179 /* launch.storyboard */; };
-		00703AB822EEF3C3009A6179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00703AB722EEF3C3009A6179 /* Assets.xcassets */; };
 		00703ABB22EEF3C3009A6179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00703AB922EEF3C3009A6179 /* LaunchScreen.storyboard */; };
 		00703AF222EF0AB3009A6179 /* localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00703AF422EF0AB3009A6179 /* localizable.strings */; };
 /* End PBXBuildFile section */
@@ -37,12 +38,21 @@
 		00237BEE22F028A10068FE97 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/signUp.strings; sourceTree = "<group>"; };
 		00237BF022F028A20068FE97 /* fa-IR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fa-IR"; path = "fa-IR.lproj/signUp.strings"; sourceTree = "<group>"; };
 		00237BF222F028A40068FE97 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/signUp.strings; sourceTree = "<group>"; };
+		00268E0622FC32C0004AF4B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00268E0922FC4051004AF4B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/credentialsEdit.storyboard; sourceTree = "<group>"; };
+		00268E0C22FC405C004AF4B5 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/credentialsEdit.strings; sourceTree = "<group>"; };
+		00268E0E22FC405D004AF4B5 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/credentialsEdit.strings; sourceTree = "<group>"; };
+		00268E1022FC4063004AF4B5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/credentialsEdit.strings; sourceTree = "<group>"; };
+		00268E1222FC4064004AF4B5 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/credentialsEdit.strings; sourceTree = "<group>"; };
+		00268E1422FC4065004AF4B5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/credentialsEdit.strings"; sourceTree = "<group>"; };
+		00268E1622FC4066004AF4B5 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/credentialsEdit.strings; sourceTree = "<group>"; };
+		00268E1822FC4067004AF4B5 /* fa-IR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fa-IR"; path = "fa-IR.lproj/credentialsEdit.strings"; sourceTree = "<group>"; };
+		00268E1A22FC4068004AF4B5 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/credentialsEdit.strings; sourceTree = "<group>"; };
 		0035166522F09214004D29F4 /* languages.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = languages.storyboard; sourceTree = "<group>"; };
 		00703AAD22EEF3BE009A6179 /* UI-iMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI-iMedia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00703AB022EEF3BF009A6179 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00703AB222EEF3BF009A6179 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		00703AB522EEF3BF009A6179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/launch.storyboard; sourceTree = "<group>"; };
-		00703AB722EEF3C3009A6179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00703ABA22EEF3C3009A6179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00703ABC22EEF3C3009A6179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00703AE622EF0727009A6179 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/launch.strings; sourceTree = "<group>"; };
@@ -98,7 +108,6 @@
 				00703AC522EEF4A8009A6179 /* UI */,
 				00703AB022EEF3BF009A6179 /* AppDelegate.swift */,
 				00703AB222EEF3BF009A6179 /* ViewController.swift */,
-				00703AB722EEF3C3009A6179 /* Assets.xcassets */,
 				00703AB922EEF3C3009A6179 /* LaunchScreen.storyboard */,
 				00703ABC22EEF3C3009A6179 /* Info.plist */,
 				00703AF422EF0AB3009A6179 /* localizable.strings */,
@@ -113,6 +122,8 @@
 				00237BCD22F00B5B0068FE97 /* signIn.storyboard */,
 				00237BE222F0288E0068FE97 /* signUp.storyboard */,
 				0035166522F09214004D29F4 /* languages.storyboard */,
+				00268E0A22FC4051004AF4B5 /* credentialsEdit.storyboard */,
+				00268E0622FC32C0004AF4B5 /* Assets.xcassets */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -185,9 +196,10 @@
 			files = (
 				00237BE022F0288E0068FE97 /* signUp.storyboard in Resources */,
 				00703ABB22EEF3C3009A6179 /* LaunchScreen.storyboard in Resources */,
+				00268E0722FC32C0004AF4B5 /* Assets.xcassets in Resources */,
 				00237BCB22F00B5B0068FE97 /* signIn.storyboard in Resources */,
 				00703AF222EF0AB3009A6179 /* localizable.strings in Resources */,
-				00703AB822EEF3C3009A6179 /* Assets.xcassets in Resources */,
+				00268E0822FC4051004AF4B5 /* credentialsEdit.storyboard in Resources */,
 				0035166622F09214004D29F4 /* languages.storyboard in Resources */,
 				00703AB622EEF3BF009A6179 /* launch.storyboard in Resources */,
 			);
@@ -238,6 +250,22 @@
 				00237BF222F028A40068FE97 /* tr */,
 			);
 			name = signUp.storyboard;
+			sourceTree = "<group>";
+		};
+		00268E0A22FC4051004AF4B5 /* credentialsEdit.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00268E0922FC4051004AF4B5 /* Base */,
+				00268E0C22FC405C004AF4B5 /* es */,
+				00268E0E22FC405D004AF4B5 /* ru */,
+				00268E1022FC4063004AF4B5 /* de */,
+				00268E1222FC4064004AF4B5 /* ar */,
+				00268E1422FC4065004AF4B5 /* zh-Hans */,
+				00268E1622FC4066004AF4B5 /* hi */,
+				00268E1822FC4067004AF4B5 /* fa-IR */,
+				00268E1A22FC4068004AF4B5 /* tr */,
+			);
+			name = credentialsEdit.storyboard;
 			sourceTree = "<group>";
 		};
 		00703AB422EEF3BF009A6179 /* launch.storyboard */ = {
